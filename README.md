@@ -13,10 +13,10 @@ Raspberry Pi python3 ADC library for PCF8591
 
     cd PCF8591-python3-lib/examples/
     
-**READ**
+**Read**
 
     sudo python3 read.py
 
-**WRITE**
+**Write**
 
     sudo python3 write.py
