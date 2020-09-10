@@ -1,18 +1,18 @@
 # PCF8591-python3-lib
 Raspberry Pi python3 ADC library for PCF8591
 
-Installation
+**Installation**
 
-git clone https://github.com/joy-it/PCF8591-python3-lib.git
+    git clone https://github.com/joy-it/PCF8591-python3-lib.git
 
-cd PCF8591-python3-lib/
+    cd PCF8591-python3-lib/
 
-sudo python3 setup.py install
+    sudo python3 setup.py install
 
-Examples
+**Examples**
 
-cd PCF8591-python3-lib/examples/
+    cd PCF8591-python3-lib/examples/
 
-sudo python3 read.py
+    sudo python3 read.py
 
-sudo python3 write.py
+    sudo python3 write.py
