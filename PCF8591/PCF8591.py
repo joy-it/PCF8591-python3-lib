@@ -11,8 +11,6 @@ def readADCvalue(i2cDeviceAddr, channel):
    return value
 
 def readADCvoltage(i2cDeviceAddr, channel):
-   value=i2c.read_byte_data (i2cDeviceAddr, channel)  
-   sleep (0.01)
    value=i2c.read_byte_data (i2cDeviceAddr, channel)  # read current analog value
    value= value * (3.3 / 255)                         # conversion to a voltage
    return value
