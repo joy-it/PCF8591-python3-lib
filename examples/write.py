@@ -2,7 +2,7 @@ import PCF8591
 from time import sleep
 
 adc = PCF8591
-i2cAddress = 0x48          # ADC I²C-Address
+i2cAddress = 0x48          # ADC I2C-Address
 Out = 0x04  # Output
 
 while True:
